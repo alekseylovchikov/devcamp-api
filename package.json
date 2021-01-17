@@ -1,0 +1,23 @@
+{
+  "name": "devcamp-api",
+  "version": "1.0.0",
+  "description": "Devcamp backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Aleksey Lovchikov",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
